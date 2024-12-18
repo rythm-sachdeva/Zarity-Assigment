@@ -1,0 +1,84 @@
+# Python bytecode and caches
+*.pyc
+*.pyo
+__pycache__/
+*.log
+
+# Environment variables and secrets
+.env
+*.env
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Django specific files
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3
+
+# Migrations
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Static and media files
+/static/
+/media/
+
+# Node modules (if using npm or yarn for frontend)
+node_modules/
+
+# Compiled CSS or JS files (if using build tools like webpack)
+*.css.map
+*.js.map
+*.css
+*.js
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing and coverage files
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+nosetests.xml
+pytest_cache/
+__snapshots__/
+
+# Deployment files
+*.pem
+*.key
+*.crt
+*.cfg
+*.ini
+
+# Docker files
+*.pid
+*.seed
+*.dockerfile
+.dockerignore
+docker-compose.override.yml
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# Celery and task queue logs
+celerybeat-schedule
+celerybeat.pid
+
+# Pipenv files
+Pipfile.lock
